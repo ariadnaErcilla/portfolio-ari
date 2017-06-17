@@ -1,0 +1,72 @@
+//clases for layout > content
+
+$width-circle-img: 100px
+$width-circle-img-sm: 70px
+
+.container-sm
+	@extend .container
+	max-width: 900px
+	margin: 0 auto
+
+
+.container-img
+	img
+		margin-top: 20px
+		&:first-child
+			margin-top: 0
+
+article
+	padding-top: $separation-xl
+	padding-bottom: $separation-xl
+
+.box-2
+	@extend .col-xs-24
+	@extend .col-sm-24
+	@extend .col-md-24
+	@extend .col-lg-12
+
+.box-3
+	@extend .col-xs-24
+	@extend .col-sm-12
+	@extend .col-md-12
+	@extend .col-lg-8
+
+.box-4
+	@extend .col-xs-24
+	@extend .col-sm-12
+	@extend .col-md-6
+	@extend .col-lg-6
+	float: left
+
+.scroll-down
+	position: absolute
+	bottom: 50px
+	text-align: center
+	width: 100%
+	margin-bottom: 30px
+	font-weight: 300
+	color: white
+	&:hover
+		text-decoration: underline !important
+		cursor: pointer !important
+		color: white
+	.fa
+		margin-left: 5px
+		font-size: $font-size-xs
+
+
+
+.container-links
+	@include media-breakpoint-down(xs)
+		.btn
+			width: 100%
+			margin-bottom: 10px
+
+
+
+
+
+
+
+
+

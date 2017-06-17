@@ -1,0 +1,89 @@
+//clases for base > general
+*
+	outline: 0
+	margin: 0 //para poder poner el footer siempre abajo de la página
+
+*,
+*:before,
+*:after
+	-moz-box-sizing: border-box
+	-webkit-box-sizing: border-box
+	box-sizing: border-box
+
+
+.selector-for-some-widget
+	-webkit-box-sizing: content-box
+	-moz-box-sizing: content-box
+	box-sizing: content-box
+
+html, body 
+	height: 100%
+	//font-size: 16px
+
+.cf:before,
+.cf:after
+	content: " "
+	display: table
+
+.cf:after
+	clear: both
+
+
+body
+	position: relative
+	// @include media-breakpoint-down(xs)
+	// 	background-color: rgba(226, 33, 167, 0.17)
+	// @include media-breakpoint-down(sm)
+	// 	background-color: rgba(125, 226, 33, 0.17)
+	// @include media-breakpoint-down(md)
+	// 	background-color: rgba(255, 235, 140, 0.17)
+	// @include media-breakpoint-down(lg)
+	// 	background-color: rgba(33, 171, 226, 0.17)
+	// @include media-breakpoint-down(xl)
+	// 	background-color: rgba(56, 101, 226, 0.17)
+
+
+ul
+	padding-left: 0
+	margin-bottom: 0 //añadido hace poco
+
+li 
+	list-style: none
+	
+
+.box-inline
+	display: inline-block
+
+.box-block
+	display: block
+
+.clear
+	clear: both
+
+img
+	width: 100%
+
+a
+	text-decoration: none
+	&:hover, &:focus, &:visited
+		text-decoration: none
+
+.full-width
+	width: 100%
+
+.show-inline
+	display: inline-block
+
+
+.center-table
+	display: table
+	margin: 0 auto
+
+
+.img-hover
+	opacity: 0.8
+	cursor: pointer
+
+
+
+

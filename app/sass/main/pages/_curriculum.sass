@@ -1,0 +1,101 @@
+//clases for pages > curriculum
+
+.box-left, .box-right
+	@extend .col-xs-24
+	@extend .col-sm-24
+	@extend .col-md-12
+	@extend .col-lg-12
+	float: left
+
+$width-text-progress: 180px
+.text-programs
+	width: $width-text-progress
+	float: left
+	padding: 0
+	font-size: $font-size-sm
+	font-weight: 800
+	span
+		// float: right
+		@include media-breakpoint-down(md)
+			float: left
+
+.progress
+	width: calc(100% - #{$width-text-progress})
+	float: left
+	padding: 0
+
+
+.box-ul-curriculum
+	background-color: white
+	margin-bottom: $separation-xxl
+
+
+.box-curriculum
+	padding-bottom: 0
+	h6
+		padding-bottom: $separation-sm
+		margin-bottom: $separation-md
+		margin-top: $separation-sm
+		border-bottom: 1px dotted $brand-secondary	
+		span
+			font-style: italic
+	.box-right, .box-left
+		margin-bottom: $separation-xxl
+	.separation-top
+		span
+			margin-right: $separation-md
+			font-weight: 800
+
+.list-functions
+	li
+		list-style-type: disc
+		list-style-position: inside
+		span
+			margin-left: -$separation-md
+		@include media-breakpoint-down(md)
+			float: left
+			margin-right: $separation-lg
+	.li-title
+		font-weight: 800
+		list-style-type: none
+		float: none
+
+
+.box-img-process
+	@extend .box-img-service
+	display: inline-block
+	float: left
+
+.box-text-process
+	@extend .box-text-service
+	float: left
+	width: calc(100% - #{$width-circle-img})
+	padding-left: $separation-lg !important
+	h5
+		text-align: left
+
+
+.buttons-cv
+	background-color: $brand-primary
+	clear: both 
+	padding: 10px 20px
+	a
+		width: 60px
+		height: 60px
+		border-radius: 50%
+		font-size: 30px
+		background-color: white
+		color: $brand-primary
+		text-align: center
+		padding-top: 5px
+		display: inline-block
+		&:hover
+			background-color: lighten($brand-primary, 40%)
+
+.center-elements
+	margin: 0 auto
+	display: table
+
+
+
+

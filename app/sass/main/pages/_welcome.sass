@@ -1,0 +1,26 @@
+//clases for pages > welcome
+
+.box-presentation
+	// background-color: #2d8ad6
+	background-image: url("../images/perfil/bg_home.jpg")
+	background-size: cover
+	background-position: center
+	background-repeat: no-repeat
+	color: white
+	margin-top: $height-header
+	height: calc(100% - #{$height-header})
+	h1, h2
+		text-transform: uppercase
+	h1
+		font-weight: 500
+		font-size: 5rem
+		@include media-breakpoint-down(sm)
+			font-size: 3rem
+	h2
+		font-weight: 100
+		font-size: 3rem
+		line-height: 1.5
+		@include media-breakpoint-down(sm)
+			font-size: 2rem
+	.container
+		margin-top: 30vh

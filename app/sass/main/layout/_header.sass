@@ -1,0 +1,61 @@
+//clases for layout > header
+
+
+header
+	//height: $height-header
+	position: fixed
+	line-height: $height-header
+	z-index: 999
+	top: 0
+	width: 100%
+	background-color: $brand-primary
+	border-bottom: 1px solid white
+
+
+
+.navbar-light
+	float: right
+	padding: 0
+	background-color: inherit
+	.navbar-nav
+		.nav-item
+			margin: 0
+			.nav-link
+				padding: 0
+				color: white
+				padding-left: $separation-sm
+				padding-right: $separation-sm
+				text-transform: uppercase
+				&.active
+					background-color: white !important
+					color: $brand-primary !important
+					font-weight: 800
+				&:hover
+					background-color: white
+					color: $brand-primary
+					opacity: 0.6
+	@include media-breakpoint-down(sm)
+		width: 100%
+		//line-height: 2.5
+		.fa
+			padding-right: 5px
+	.navbar-toggler
+		position: absolute
+		top: -50px
+		right: 0
+		&:hover
+			cursor: pointer
+			color: white
+	
+
+.navbar-toggler
+	border: none
+
+
+
+.logo-menu
+	color: white
+	text-transform: uppercase
+	letter-spacing: 1.5px
+	font-size: $font-size-lg
+

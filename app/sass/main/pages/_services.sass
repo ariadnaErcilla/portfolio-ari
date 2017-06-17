@@ -1,0 +1,33 @@
+//clases for pages > services
+
+.box-services
+	h5, p
+		text-align: center
+		
+.box-img-service
+	width: $width-circle-img
+	padding: 15px
+	background-color: $brand-primary
+	border-radius: 50%
+	margin: 0 auto
+	margin-bottom: 20px
+	@extend .col-xs-8
+	@extend .col-sm-24
+	@extend .col-md-24
+	@extend .col-lg-24
+	@include media-breakpoint-down(xs)
+		float: left
+		margin-bottom: 10px
+		width: $width-circle-img-sm
+
+.box-text-service
+	@extend .col-sm-24
+	@extend .col-md-24
+	@extend .col-lg-24
+	padding: 0
+	@include media-breakpoint-down(xs)
+		width: calc( 100% - #{$width-circle-img-sm})
+		float: left
+		padding-left: 10px
+		h5, p
+			text-align: left

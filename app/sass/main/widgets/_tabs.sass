@@ -1,0 +1,20 @@
+//clases for widgets > tabs
+
+
+.ul-curriculum
+	display: table
+	margin: 0 auto
+	li
+		padding: 10px
+	@include media-breakpoint-down(sm)
+		display: block
+		li
+			//font-size: $font-size-xs
+			padding: 0
+			width: 48%
+			a
+				text-align: center
+	@include media-breakpoint-down(xs)
+		li 
+			width: 100%
+

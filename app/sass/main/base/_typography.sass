@@ -1,0 +1,119 @@
+//clases for base > typography
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,400i,600,700')
+
+@font-face
+	font-family: 'Montserrat'
+	src: url('../fonts/Montserrat-Black.ttf')
+	font-weight: 900
+@font-face
+	font-family: 'Montserrat'
+	src: url('../fonts/Montserrat-Bold.ttf')
+	font-weight: 700
+@font-face
+	font-family: 'Montserrat'
+	src: url('../fonts/Montserrat-Regular.ttf')
+	font-weight: 500
+@font-face
+	font-family: 'Montserrat'
+	src: url('../fonts/Montserrat-Light.ttf')
+	font-weight: 300
+@font-face
+	font-family: 'Montserrat'
+	src: url('../fonts/Montserrat-Thin.ttf')
+	font-weight: 100
+
+h1, h2, h3, h4, h5
+	font-family: $font-family-secondary
+	margin-bottom: 0
+
+
+h1, h2, h3, h5
+	text-align: center
+
+p, li
+	font-size: $font-size-sm
+
+h3
+	margin-top: $separation-xxl
+	margin-bottom: 70px
+	position: relative
+	font-weight: 700
+	letter-spacing: 1px
+	font-size: 3.2rem
+	color: #3a3939
+	&:after
+		content: ''
+		position: absolute
+		left: 0 
+		right: 0
+		top: 100%
+		margin: 10px auto
+		width: 60px
+		height: 4px
+		background: $brand-primary
+	@include media-breakpoint-down(md)
+		//margin-top: $separation-md
+		margin-bottom: $separation-xxl
+		font-size: 2.4rem
+
+
+h5
+	text-transform: uppercase
+	font-weight: 600
+
+.paragraph-md
+	font-size: 1.1rem
+
+.paragraph-lg
+	font-size: $font-size-lg
+	font-weight: 800
+
+.paragraph-sm
+	font-size: $font-size-sm
+	font-weight: 300
+	
+
+.line-subtitle
+	position: relative
+	&:after
+		content: ''
+		position: absolute
+		left: 0
+		top: 100%
+		margin-top: 5px
+		width: 50px
+		height: 3px
+		background: white
+
+
+.text-center
+	text-align: center	
+
+
+.text-subtitle
+	text-align: left
+	color: $brand-secondary
+
+.title-description
+	font-size: 20px
+	max-width: 1000px
+	margin: 0 auto
+	margin-top: 60px
+	margin-bottom: 80px
+	text-align: center
+	font-weight: 300
+
+
+.footer-img
+	font-size: $font-size-sm
+	color: darkgrey
+	float: right
+	padding-top: 5px
+	font-weight: 300
+
+.point-text
+	font-weight: 800
+	font-size: 20px
+
+
