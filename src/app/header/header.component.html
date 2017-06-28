@@ -1,0 +1,32 @@
+<header class="cf">
+  <div class="container">
+    <a class="logo-menu" href="#" translate>name</a>
+    <nav class="navbar navbar-light bg-faded">
+      <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"></button>
+      <div class="collapse navbar-toggleable-sm" id="navbar-header">
+        <ul id="navbar-scroll" class="nav navbar-nav affix-top" data-spy="affix">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home"><i class="hidden-md-up fa fa-home" aria-hidden="true"></i>{{'home' | translate}} <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services"><i class="hidden-md-up fa fa-briefcase" aria-hidden="true"></i>{{'services' | translate}}<i class="hidden-md-up fa fa-address-card-o" aria-hidden="true"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#works"><i class="hidden-md-up fa fa-picture-o" aria-hidden="true"></i>{{'proyectos' | translate}}</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#curriculum"><i class="hidden-md-up fa fa-briefcase" aria-hidden="true"></i>{{'curriculum' | translate}}<i class="hidden-md-up fa fa-address-card-o" aria-hidden="true"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><i class="hidden-md-up fa fa-envelope" aria-hidden="true"></i>{{'contact' | translate}}</a>
+          </li>
+          <li>
+            <a class="nav-link" (click)="changeLang('es')"><i class="hidden-md-up fa fa-envelope" aria-hidden="true"></i>ES</a>
+            <a class="nav-link" (click)="changeLang('en')"><i class="hidden-md-up fa fa-envelope" aria-hidden="true"></i>EN</a>
+            <a class="nav-link" (click)="changeLang('cat')"><i class="hidden-md-up fa fa-envelope" aria-hidden="true"></i>CAT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
