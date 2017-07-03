@@ -12,6 +12,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { IndexComponent } from './index/index.component';
+import { PortfolioBackendComponent } from './portfolio/projects/portfolio-backend/portfolio-backend.component';
+import { PuntoyseguidoBackendComponent } from './portfolio/projects/puntoyseguido-backend/puntoyseguido-backend.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: Http) {
@@ -24,7 +26,9 @@ export function HttpLoaderFactory(http: Http) {
     HeaderComponent,
     FooterComponent,
     PortfolioComponent,
-    IndexComponent
+    IndexComponent,
+    PortfolioBackendComponent,
+    PuntoyseguidoBackendComponent
   ],
   imports: [
     BrowserModule,

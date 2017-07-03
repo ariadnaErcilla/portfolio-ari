@@ -90,7 +90,7 @@
 </article>
 <!-- end servicios -->
 
- <!--portfolio -->
+<!--portfolio -->
 <article id="works" class="box-portfolio">
   <div class="container">
     <h3 translate>Proyectos</h3>
@@ -136,7 +136,7 @@
         </a>
       </div>
       <div class="box-3">
-        <a class="box-img-portfolio" href="html/portfolio_puntoyseguido.html">
+        <a class="box-img-portfolio" href="/portfolio/puntoyseguido">
           <img src="assets/images/portfolio/puntoyseguido/puntoyseguido_portada.jpg" alt="">
           <div class="box-text-portfolio proj-puntoyseguido">
             <h4 class="line-subtitle">Puntoyseguido</h4>
@@ -194,7 +194,7 @@
         <span class="sr-only" translate>Next</span>
       </a>
     </div>
-    <a class="btn btn-primary btn-center" href="html/portfolio.html" translate>viewAllProjects</a>
+    <a class="btn btn-primary btn-center" href="/portfolio" translate>viewAllProjects</a>
 
 
   </div>
@@ -413,7 +413,9 @@
   </div>
   <div class="buttons-cv">
     <div class="center-elements">
-      <a class="margin-xs-r" href="assets/images/pdf/ariadna_ercilla_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+      <a *ngIf="selectedLang === 'ES'" class="margin-xs-r" href="assets/images/pdf/ariadna_ercilla_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+      <a *ngIf="selectedLang === 'EN'" class="margin-xs-r" href="assets/images/pdf/ariadna_ercilla_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+      <a *ngIf="selectedLang === 'CAT'" class="margin-xs-r" href="assets/images/pdf/ariadna_ercilla_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
       <a href="https://www.linkedin.com/in/ariadnaercilla/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
     </div>
   </div>
