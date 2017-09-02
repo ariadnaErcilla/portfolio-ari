@@ -14,6 +14,16 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { IndexComponent } from './index/index.component';
 import { PortfolioBackendComponent } from './portfolio/projects/portfolio-backend/portfolio-backend.component';
 import { PuntoyseguidoBackendComponent } from './portfolio/projects/puntoyseguido-backend/puntoyseguido-backend.component';
+import { PortfolioBoxeadorComponent } from './portfolio/projects/portfolio-boxeador/portfolio-boxeador.component';
+import { PortfolioImpremtaComponent } from './portfolio/projects/portfolio-impremta/portfolio-impremta.component';
+import { PortfolioMakeyoursuiteComponent } from './portfolio/projects/portfolio-makeyoursuite/portfolio-makeyoursuite.component';
+import { PortfolioProcterComponent } from './portfolio/projects/portfolio-procter/portfolio-procter.component';
+import { PortfolioSaltinbanquinComponent } from './portfolio/projects/portfolio-saltinbanquin/portfolio-saltinbanquin.component';
+import { PortfolioSmartlinkComponent } from './portfolio/projects/portfolio-smartlink/portfolio-smartlink.component';
+import { PortfolioTedclothingComponent } from './portfolio/projects/portfolio-tedclothing/portfolio-tedclothing.component';
+import { PortfolioTrenesComponent } from './portfolio/projects/portfolio-trenes/portfolio-trenes.component';
+import { PortfolioXerpaComponent } from './portfolio/projects/portfolio-xerpa/portfolio-xerpa.component';
+
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: Http) {
@@ -28,7 +38,16 @@ export function HttpLoaderFactory(http: Http) {
     PortfolioComponent,
     IndexComponent,
     PortfolioBackendComponent,
-    PuntoyseguidoBackendComponent
+    PuntoyseguidoBackendComponent,
+    PortfolioBoxeadorComponent,
+    PortfolioImpremtaComponent,
+    PortfolioMakeyoursuiteComponent,
+    PortfolioProcterComponent,
+    PortfolioSaltinbanquinComponent,
+    PortfolioSmartlinkComponent,
+    PortfolioTedclothingComponent,
+    PortfolioTrenesComponent,
+    PortfolioXerpaComponent
   ],
   imports: [
     BrowserModule,
