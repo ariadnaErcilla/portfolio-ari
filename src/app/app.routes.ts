@@ -6,7 +6,7 @@ import { PortfolioBackendComponent } from './portfolio/projects/portfolio-backen
 import { PuntoyseguidoBackendComponent } from './portfolio/projects/puntoyseguido-backend/puntoyseguido-backend.component';
 import { PortfolioBoxeadorComponent } from './portfolio/projects/portfolio-boxeador/portfolio-boxeador.component';
 import { PortfolioImpremtaComponent } from './portfolio/projects/portfolio-impremta/portfolio-impremta.component';
-import { PortfolioMakeyoursuiteComponent } from './portfolio/projects/portfolio-makeyoursuite/portfolio-makeyoursuite.component';
+import { PortfolioMakeyoursuitComponent } from './portfolio/projects/portfolio-makeyoursuit/portfolio-makeyoursuit.component';
 import { PortfolioProcterComponent } from './portfolio/projects/portfolio-procter/portfolio-procter.component';
 import { PortfolioSaltinbanquinComponent } from './portfolio/projects/portfolio-saltinbanquin/portfolio-saltinbanquin.component';
 import { PortfolioSmartlinkComponent } from './portfolio/projects/portfolio-smartlink/portfolio-smartlink.component';
@@ -21,7 +21,7 @@ export const AppRoutes: Routes = [
   { path: 'portfolio/puntoyseguido', component: PuntoyseguidoBackendComponent }, // portfolio/puntoyseguido podria posar-li platan/pera
   { path: 'portfolio/boxeador', component: PortfolioBoxeadorComponent },
   { path: 'portfolio/impremta', component: PortfolioImpremtaComponent },
-  { path: 'portfolio/makeyoursuite', component: PortfolioMakeyoursuiteComponent },
+  { path: 'portfolio/makeyoursuit', component: PortfolioMakeyoursuitComponent },
   { path: 'portfolio/procter', component: PortfolioProcterComponent },
   { path: 'portfolio/saltinbanquin', component: PortfolioSaltinbanquinComponent },
   { path: 'portfolio/smartlink', component: PortfolioSmartlinkComponent },
