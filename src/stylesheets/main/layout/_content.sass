@@ -51,16 +51,35 @@ article
 	bottom: 50px
 	text-align: center
 	width: 100%
-	margin-bottom: 30px
+	margin-bottom: 10px
 	font-weight: 300
 	color: white
+	.fa
+		animation-name: scroll-down
+		animation-duration: 1.5s 
+		animation-timing-function: ease-out 
+		animation-delay: 0
+		animation-direction: alternate
+		animation-iteration-count: infinite
+		animation-fill-mode: none
+		animation-play-state: running
+		&:hover
+			cursor: pointer
+	
+	@keyframes scroll-down
+		0%
+			margin-bottom: 0
+		100%
+			margin-bottom: 10px
+
+
 	&:hover
 		text-decoration: underline !important
 		cursor: pointer !important
 		color: white
 	.fa
 		margin-left: 5px
-		font-size: $font-size-xs
+		font-size: $display4-size
 
 
 

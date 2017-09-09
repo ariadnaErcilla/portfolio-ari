@@ -5,7 +5,9 @@
 		<h1 translate>subWelcome</h1>
 
 	</div>
-  <a class="scroll-down" href="#view-about-me">{{'discoverMore' | translate}}<i class="fa fa-long-arrow-down" aria-hidden="true"></i></a>
+<!--   <a class="scroll-down" href="#view-about-me">{{'discoverMore' | translate}}<i class="fa fa-long-arrow-down" aria-hidden="true"></i></a>
+ -->  <a class="scroll-down" href="#view-about-me"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+  
 </article>
 
 <blockquote class="sentence-famous">
@@ -418,10 +420,9 @@
   </div>
   <div class="buttons-cv">
     <div class="center-elements">
-      <a class="margin-xs-r" href="assets/images/pdf/ariadna_ercilla_cv_es.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
-      <a *ngIf="selectedLang === 'ES'" class="margin-xs-r" href="assets/images/pdf/ariadna_ercilla_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
-      <a *ngIf="selectedLang === 'EN'" class="margin-xs-r" href="assets/images/pdf/ariadna_ercilla_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
-      <a *ngIf="selectedLang === 'CAT'" class="margin-xs-r" href="assets/images/pdf/ariadna_ercilla_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+      <a *ngIf="selectedLang === 'es'" class="margin-sm-r" href="assets/images/pdf/ariadna_ercilla_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+      <a *ngIf="selectedLang === 'en'" class="margin-sm-r" href="assets/images/pdf/ariadna_ercilla_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+      <a *ngIf="selectedLang === 'cat'" class="margin-sm-r" href="assets/images/pdf/ariadna_ercilla_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
       <a href="https://www.linkedin.com/in/ariadnaercilla/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
     </div>
   </div>
