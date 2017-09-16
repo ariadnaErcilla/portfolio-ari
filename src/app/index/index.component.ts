@@ -15,4 +15,16 @@ export class IndexComponent implements OnInit {
     this.selectedLang = this.translate.currentLang
   }
 
+  tabsNav(tabName:string) {
+  	const element = document.getElementById(tabName)
+  	const bodyRect = document.body.getBoundingClientRect()
+  	const elemRect = element.getBoundingClientRect()
+  	const positionTop:number = elemRect.top - bodyRect.top
+
+  	window.scroll({
+  		top: positionTop > 0 ? positionTop : 0,
+    	behavior: 'smooth',
+  	})
+  }
+
 }

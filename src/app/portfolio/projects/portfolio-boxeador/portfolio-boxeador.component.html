@@ -2,14 +2,14 @@
       <article class="box-title-proj">
       <h1>J-SUGE<span class="paragraph-md"> 2013</span></h1>
       <ul>
-        <li><a href="#company">{{'company' | translate }}</a></li>
-        <li><a href="#mockup">{{'mockups' | translate }}</a></li>
+        <li><a (click)="scroll('company')">{{'company'| translate}}</a></li>
+        <li><a (click)="scroll('mockup')">{{'mockups' | translate}}</a></li>
       </ul>
     </article>
 
 
    <!-- start about company -->
-   <a name="company"></a>
+   <a id="company"></a>
     <article>
       <div class="container-sm">
         <h3>{{'company' | translate }}</h3>
@@ -22,7 +22,7 @@
     <!-- end about company -->
 
     <!-- start about image -->
-    <a name="mockup"></a>
+    <a id="mockup"></a>
     <article>
       <div class="container container-img">
         <h3>{{'mockups' | translate }}</h3>
@@ -47,8 +47,8 @@
             <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
             {{'return_portfolio' | translate }}
           </a>
-          <a class="pull-right btn btn-primary" href="portfolio/impremta">
-            {{'view_project' | translate }}: impremta
+          <a class="pull-right btn btn-primary" href="portfolio/nestle">
+            {{'view_project' | translate }}: Nestle
             <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
           </a>
       </div>

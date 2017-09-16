@@ -2,8 +2,8 @@
   <article class="box-title-proj">
       <h1>Trenes<span class="paragraph-md"> 2000 - 2017</span></h1>
       <ul>
-        <li><a href="#company">{{'company' | translate }}</a></li>
-        <li><a href="#mockup">{{'img' | translate }}</a></li>
+        <li><a (click)="scroll('company')">{{'company'| translate}}</a></li>
+        <li><a (click)="scroll('mockup')">{{'mockups' | translate}}</a></li>
       </ul>
     </article>
 
@@ -11,7 +11,7 @@
 
 
    <!-- start about company -->
-   <a name="company"></a>
+   <a id="company"></a>
     <article>
       <div class="container-sm">
         <h3>{{'company' | translate }}</h3>
@@ -21,7 +21,7 @@
     <!-- end about company -->
 
     <!-- start about image -->
-    <a name="mockup"></a>
+    <a id="mockup"></a>
     <article>
       <div class="container container-img">
         <h3>{{'img' | translate }}</h3>

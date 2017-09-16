@@ -3,10 +3,10 @@
   <article class="box-title-proj">
   <h1>Puntoyseguido<span class="paragraph-md"> 2014</span></h1>
   <ul>
-    <li><a href="#company">{{'company' | translate}}</a></li>
-    <li><a href="#mockup">{{'mockups' | translate}}</a></li>
-    <li><a href="#proposal">{{'purpose' | translate}}</a></li>
-    <li><a href="#tecnics">{{'tecnics_used' | translate}}</a></li>
+     <li><a (click)="scroll('company')">{{'company'| translate}}</a></li>
+    <li><a (click)="scroll('mockup')">{{'mockups' | translate}}</a></li>
+    <li><a (click)="scroll('proposal')">{{'purpose' | translate}}</a></li>
+    <li><a (click)="scroll('tecnics')">{{'tecnics_used' | translate}}</a></li>
   </ul>
 </article>
 
@@ -14,7 +14,7 @@
 
 
 <!-- start about company -->
-<a name="company"></a>
+<a id="company"></a>
 <article>
   <div class="container-sm">
     <h3>{{'company' | translate}}</h3>
@@ -27,7 +27,7 @@
 <!-- end about company -->
 
 <!-- start about image -->
-<a name="mockup"></a>
+<a id="mockup"></a>
 <article>
   <div class="container container-img">
     <h3>{{'mockups' | translate}}</h3>
@@ -49,7 +49,7 @@
 
 
 <!-- start about purpose -->
-<a name="proposal"></a>
+<a id="proposal"></a>
 <article>
   <div class="container-sm">
     <h3>{{'purpose' | translate}}</h3>
@@ -64,7 +64,7 @@
 <!-- end about purpose -->
 
 <!-- start about programs -->
-<a name="tecnics"></a>
+<a id="tecnics"></a>
 <article>
   <div class="container-sm">
     <h3>{{'tecnics_used' | translate}}</h3>

@@ -23,6 +23,8 @@ import { PortfolioSmartlinkComponent } from './portfolio/projects/portfolio-smar
 import { PortfolioTedclothingComponent } from './portfolio/projects/portfolio-tedclothing/portfolio-tedclothing.component';
 import { PortfolioTrenesComponent } from './portfolio/projects/portfolio-trenes/portfolio-trenes.component';
 import { PortfolioXerpaComponent } from './portfolio/projects/portfolio-xerpa/portfolio-xerpa.component';
+import { PortfolioSchweppesComponent } from './portfolio/projects/portfolio-schweppes/portfolio-schweppes.component';
+import { PortfolioNestleComponent } from './portfolio/projects/portfolio-nestle/portfolio-nestle.component';
 
 
 // AoT requires an exported function for factories
@@ -47,7 +49,9 @@ export function HttpLoaderFactory(http: Http) {
     PortfolioSmartlinkComponent,
     PortfolioTedclothingComponent,
     PortfolioTrenesComponent,
-    PortfolioXerpaComponent
+    PortfolioXerpaComponent,
+    PortfolioSchweppesComponent,
+    PortfolioNestleComponent
   ],
   imports: [
     BrowserModule,

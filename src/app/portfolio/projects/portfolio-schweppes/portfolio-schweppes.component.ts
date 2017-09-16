@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-portfolio-procter',
-  templateUrl: './portfolio-procter.component.html',
-  styleUrls: ['./portfolio-procter.component.sass']
+  selector: 'app-portfolio-schweppes',
+  templateUrl: './portfolio-schweppes.component.html',
+  styleUrls: ['./portfolio-schweppes.component.sass']
 })
-export class PortfolioProcterComponent implements OnInit {
+export class PortfolioSchweppesComponent implements OnInit {
 
   constructor() { }
 

@@ -13,5 +13,12 @@ export class AppComponent {
 
     // the lang to use, if the lang isn't available, it will use the current loader to get them
     translate.use('es');
+
+    //(<any>window).jQuery("body").smoove({
+		  //offset  : '15%',
+		  // moveX is overridden to -200px for ".bar" object
+		  //moveX   : '100px',
+		  //moveY   : '100px',
+		//});
   }
 }
