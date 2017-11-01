@@ -14,7 +14,7 @@
   "webDesign": "Web Designer",
   "mobileFirst": "Multi-device web pages following the Mobile First strategy.",
   "appDesign": "Apps Design",
-  "infoAppDesign": "Designs focus in apps, Diseños centrados en apps, for both iOS and Android.",
+  "infoAppDesign": "Designs focus in apps, for both iOS and Android.",
   "userExperience": "User Experience",
   "infoUserExperience": "Know the user. Prototype, test.. with software like Sketch or Axure.",
   "graficDesign": "Graphic Design",
@@ -89,6 +89,9 @@
   "send_email": "¡Envíame un mensaje! ¿Crees que podemos trabajar juntos? ¿Quieres darme tu opinión de mis proyectos o simplemente decirme hola? ¡Aprovecha y envíame un mensaje, te responderé en breves!",
   "web_design": "Diseñadora web",
   "return": "volver",
+
+
+
   "info_tedclothing": "Startup de ropa full-print para jóvenes.",
   "info_saltin_banquin": "E-commerce de zapatos infantiles.",
   "info_boxeo": "E-commerce de ropa deportiva, especializado en ropa de boxeo.",
@@ -139,6 +142,8 @@
   "title_tecnic_makeyoursuit2": "Test A/B. ",
   "tecnic_makeyoursuit1": "Hicimos test de Usabilidad, donde los usarios tenían que realizar tareas cuotidianas. Detectamos diferentes inputs para mejorar en el proceso de compra.",
   "tecnic_makeyoursuit2": "Realizamos test A/B en las landings. Se provó el impacto de utilizar una imagen u otra, qué tipo de traje funcionaba mejor o las frases utilizadas. Se utilizó la herramienta Unbounce.",
+  
+
   "info_procter1": "Procter&Gamble es una empresa estadouniense que contiene más de 300 marcas de gran consumo como Gillette, Ariel o Tampax.",
   "info_procter2": "Procter&Gamble dispone de una tienda online de la que se rediseñó su página de inicio.",
   "img_procter1": "Langind Procter&Gamble",
@@ -177,6 +182,8 @@
   "img_saltinbanquin5": "Página de contacto",
   "img_saltinbanquin6": "Página adaptable a todos los dispositivos",
   "purpose_saltinbanquin": "Se realizó un test de usabilidad para detectar los principales problemas con los que contaba la plataforma. Los más importantes eran:",
+  
+
   "saltinbanquin_step1": "Mala jerarquización de la información y de las acciones prioritarias de la plataforma",
   "saltinbanquin_step2": "Diseño desactualizado, con imágenes y composiciones antiguas.",
   "saltinbanquin_step3": "Aumentar las conversiones desde tablet/móvil realizando un diseño adaptable a todos los dispositivos.",
@@ -204,6 +211,8 @@
   "tedclothing_step3": "Realización de la identidad corporativa de la marca, desde el logotipo, elementos publicitarios, etc.",
   "tedclothing_step4": "Difusión de la marca en las redes sociales.",
   "tedclothing_step5": "Diseño de la tienda online. Se realizaron test de usuario para validar las funcionalidades.",
+  
+
   "trenes_info1": "Maqueta de trenes. ",
   "trenes_info2": "Proyecto familiar de contruir y decorar una maqueta de 9 x 3 metros. Es un proyecto personal que empezó en el año 2000 a partir de la pasión de mi padre por los trenes. El se dedica a la electricidad de la maqueta y yo a la decoración.",
   "img_trenes1": "Decoración de casa de pastores con huerta",
@@ -212,12 +221,26 @@
   "img_trenes4": "Estación máquinas de carbón",
   "img_trenes5": "Vía del tren con casa del vigilante",
   "img": "Imágenes",
-
   "xerpa_info1": "CityXerpa es una aplicación que se encarga de llevar cualquier producto de un punto a otro. Permite llevar comida de restaurantes, flores, productos del supermercado.. cualquier cosa que necesites a un lugar en concreto.",
   "xerpa_info2": "CityXerpa es una app que nace en Andorra y actualmente se está extendiendo en España.",
   "img_xerpa1": "Home // Menú // Registro",
   "img_xerpa2": "Lista de restaurantes // Lista de productos con foto // Lista de productos sin foto",
   "img_xerpa3": "Error 404 // Pago // Pedido recibido",
   "purpose_xerpa1": "Diseño de la app para android y IOS.",
-  "purpose_xerpa2": "Se realizaron diferentes wireframes de baja fidelidad para entender el proceso de compra y testar el proceso con los usuarios.Se realizaron los diseños de todas las pantallas y se creó un prototipo funcional para testear la aplicación."
+  "purpose_xerpa2": "Se realizaron diferentes wireframes de baja fidelidad para entender el proceso de compra y testar el proceso con los usuarios.Se realizaron los diseños de todas las pantallas y se creó un prototipo funcional para testear la aplicación.",
+  "schweppes_info1": "Schweppes es una marca internacional de bebidas carbonatadas, que destaca por bebidas como la tónica.",
+  "schweppes_info2": "Nos encargó una web donde se mostraran todos sus productos y que indicara en qué supermercados estaba disponible cada uno de los productos",
+  "img_schweppes1": "Catálogo productos",
+  "img_schweppes2": "Catálogo con carrito de la compra abierto",
+  "img_schweppes3": "Ficha de producto",
+  "purpose_schweppes1": "Diseño de la web responsive",
+  "purpose_schweppes2": "Schweppes nos encargó crear una web para facilitar la compra de sus productos en los supermercados online. Se creó una web en forma de catálogo de productos y se mostraba la disponibilidad de los productos elegidos en los distintos supermercados online. En tan sólo 2 clicks el usuario podía elegir el producto que deseaba y enviarlo al carrito de la compra del supermercado, evitando la comparación de productos / precios, en los supermercados online.",
+  "infoSchweppes": "Catálogo de productos de Schweppes",
+  "nestle_info1": "Nestlé es una marca de gran consumo que nos encargó realizar una tienda online para linkarla en sus propias webs y aumentar las ventas de sus productos",
+  "img_nestle1": "Welcome y catálogo",
+  "img_nestle2": "Catálogo",
+  "purpose_nestle1": "Diseño del ecommerce de Nestlé",
+  "purpose_nestle2": "Nestlé contaba con una web más antigua, no era responsive y tenía ciertos problemas de usabilidad que repercutían directamente a la venta de productos. Se trabajó para mejorar la tienda en cuanto diseño, usabilidad y responsive.",
+  "purpose_nestle3": "En Smartcommerce también hemos diseñados otros ecommerce para diferentes marcas de gran consumo como:",
+  "info_nestle": "Ecommerce para la marca Nestlé"
 }

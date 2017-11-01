@@ -208,6 +208,13 @@
   "img_trenes4": "Estación máquinas de carbón",
   "img_trenes5": "Vía del tren con casa del vigilante",
   "img": "Imágenes",
+  "xerpa_info1": "CityXerpa es una aplicación que se encarga de llevar cualquier producto de un punto a otro. Permite llevar comida de restaurantes, flores, productos del supermercado... cualquier cosa que necesites a un lugar en concreto.",
+  "xerpa_info2": "Nace en Andorra y actualmente se está extendiendo en España.",
+   "img_xerpa1": "Home // Menú // Registro",
+   "img_xerpa2": "Lista de restaurantes // Lista de productos con foto // Lista de productos sin foto",
+   "img_xerpa3": "Error 404 // Pago // Pedido recibido",
+   "purpose_xerpa1": "Diseño de la app para android y IOS.",
+   "purpose_xerpa2": "Se realizaron diferentes wireframes de baja fidelidad para entender el proceso de compra y testear el proceso con los usuarios. Se realizaron los diseños de todas las pantallas y se creó un prototipo funcional para testear la aplicación.",
   "schweppes_info1": "Schweppes es una marca internacional de bebidas carbonatadas, que destaca por bebidas como la tónica.",
   "schweppes_info2": "Nos encargó una web donde se mostraran todos sus productos y que indicara en qué supermercados estaba disponible cada uno de los productos",
   "img_schweppes1": "Catálogo productos",
@@ -223,4 +230,5 @@
   "purpose_nestle2": "Nestlé contaba con una web más antigua, no era responsive y tenía ciertos problemas de usabilidad que repercutían directamente a la venta de productos. Se trabajó para mejorar la tienda en cuanto diseño, usabilidad y responsive.",
   "purpose_nestle3": "En Smartcommerce también hemos diseñados otros ecommerce para diferentes marcas de gran consumo como:",
   "info_nestle": "Ecommerce para la marca Nestlé"
+
 }

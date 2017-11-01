@@ -26,6 +26,7 @@ header
 				padding-left: $separation-sm
 				padding-right: $separation-sm
 				text-transform: uppercase
+				display: inline-block
 				&.active
 					background-color: white !important
 					color: $color-3 !important
@@ -34,6 +35,15 @@ header
 					background-color: white
 					color: $color-3
 					opacity: 0.6
+			&.nav-languages 
+				margin-left: 20px
+				.nav-link
+					margin-left: 0
+					text-transform: lowercase
+					font-weight: 300
+					font-size: 12px
+					letter-spacing: 2px
+
 	@include media-breakpoint-down(sm)
 		width: 100%
 		//line-height: 2.5
@@ -48,7 +58,8 @@ header
 		&:hover
 			cursor: pointer
 			color: white
-	
+
+
 
 .navbar-toggler
 	border: none
